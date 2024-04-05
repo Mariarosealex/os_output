@@ -27,7 +27,7 @@ void main()
    } 
    printf("Total waiting time: %d\nTotal turn around time :%d\n",tot_wt,tot_tat);
    float av_wt,av_tat;
-   av_wt=(tot_wt)/num;
-   av_tat=(tot_tat)/num;
+   av_wt=(float)tot_wt/num;
+   av_tat=(float)tot_tat/num;
   printf("Average waiting time: %f\nAverage turn around time : %f",av_wt,av_tat);
 }  
